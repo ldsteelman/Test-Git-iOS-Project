@@ -21,6 +21,7 @@
 		B33976DF199588DA00C48A77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33976C1199588DA00C48A77 /* UIKit.framework */; };
 		B33976E7199588DA00C48A77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B33976E5199588DA00C48A77 /* InfoPlist.strings */; };
 		B33976E9199588DA00C48A77 /* GIT_TESTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B33976E8199588DA00C48A77 /* GIT_TESTTests.m */; };
+		B3C4C61919958E00003A6BE6 /* LDSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C4C61819958E00003A6BE6 /* LDSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B33976E4199588DA00C48A77 /* GIT TESTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GIT TESTTests-Info.plist"; sourceTree = "<group>"; };
 		B33976E6199588DA00C48A77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B33976E8199588DA00C48A77 /* GIT_TESTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIT_TESTTests.m; sourceTree = "<group>"; };
+		B3C4C61719958E00003A6BE6 /* LDSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDSTest.h; sourceTree = "<group>"; };
+		B3C4C61819958E00003A6BE6 /* LDSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				B33976CF199588DA00C48A77 /* Main.storyboard */,
 				B33976D2199588DA00C48A77 /* LDSViewController.h */,
 				B33976D3199588DA00C48A77 /* LDSViewController.m */,
+				B3C4C61719958E00003A6BE6 /* LDSTest.h */,
+				B3C4C61819958E00003A6BE6 /* LDSTest.m */,
 				B33976D5199588DA00C48A77 /* Images.xcassets */,
 				B33976C4199588DA00C48A77 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				B33976CE199588DA00C48A77 /* LDSAppDelegate.m in Sources */,
 				B33976CA199588DA00C48A77 /* main.m in Sources */,
 				B33976D4199588DA00C48A77 /* LDSViewController.m in Sources */,
+				B3C4C61919958E00003A6BE6 /* LDSTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +463,7 @@
 				B33976EE199588DA00C48A77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B33976EF199588DA00C48A77 /* Build configuration list for PBXNativeTarget "GIT TESTTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				B33976F1199588DA00C48A77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
